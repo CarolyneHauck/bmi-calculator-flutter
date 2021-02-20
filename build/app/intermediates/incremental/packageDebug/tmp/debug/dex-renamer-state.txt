@@ -1,0 +1,4 @@
+#Sat Feb 20 15:50:53 BRT 2021
+base.0=/Users/carolyne.carreira/Desktop/bmi-calculator-flutter/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

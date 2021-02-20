@@ -1,0 +1,36 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <ClojureCodeStyleSettings>{
+  :common-datomic.functions.constraint-fn :only-indent
+  :clojure.test.check.clojure-test/defspec :only-indent
+  :common-datomic.test-helpers/let-entities :only-indent
+  :common-http-client.components.mock-http/with-responses :only-indent
+  :common-io.interceptors.doc/defint :only-indent
+  :common-test.http/as-customer :only-indent
+  :common-test.http/with-scopes :only-indent
+  :common-test.postman.core/as-of :only-indent
+  :common-test.postman.e2e/flow :only-indent
+  :common-test.postman.flow/flow :only-indent
+  :cursive.formatting/align-binding-forms true
+  :cursive.formatting/default-only-indent true
+  :cursive.formatting/imports-use-vectors true
+  :cursive.formatting/one-space-lists true
+  :devcards.core/defcard :only-indent
+  :devcards.core/defcard-rg :only-indent
+  :devcards.core/deftest :only-indent
+  :integration.aux.init/defflow :only-indent
+  :io.pedestal.http.route.definition/defroutes :only-indent
+  :karma-police.controllers.ato-suspect/ato-suspect-report! 0
+  :manifold.deferred/let-flow :only-indent
+  :midje.sweet/fact :only-indent
+  :midje.sweet/facts :only-indent
+  :midje.sweet/tabular :only-indent
+  :nubank.shuffle.common.ui.helpers/defc 0
+  :pedestal.swagger.core/defhandler :only-indent
+  :postman.aux.account/created-at :only-indent
+  :schema.core/defmethod :only-indent
+  :shuffle.test-helpers/with-rendered-component :only-indent
+  :shuffle.test-helpers/with-subscriptions :only-indent
+}</ClojureCodeStyleSettings>
+  </code_scheme>
+</component>
