@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="896a139e-d8b9-40b3-806e-acf0e4319568" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/results_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/9e878efead14be907270d32045455647/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/9e878efead14be907270d32045455647/.filecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/9e878efead14be907270d32045455647/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/9e878efead14be907270d32045455647/app.dill" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/9e878efead14be907270d32045455647/kernel_snapshot.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/9e878efead14be907270d32045455647/kernel_snapshot.d" afterDir="false" />
@@ -127,22 +128,26 @@
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
     <state x="-1874" y="388" key="#Notifications/-2560.23.2560.1417/0.23.1680.1027@-2560.23.2560.1417" timestamp="1613865363028" />
-    <state width="1520" height="207" key="GridCell.Tab.0.bottom" timestamp="1613875268166">
+    <state x="-1955" y="609" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613877017863">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
-    <state width="1520" height="207" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.1680.1027@-2560.23.2560.1417" timestamp="1613875268166" />
-    <state width="1520" height="207" key="GridCell.Tab.0.center" timestamp="1613875268164">
+    <state x="-1955" y="609" key="#com.intellij.fileTypes.FileTypeChooser/-2560.23.2560.1417/0.23.1680.1027@-2560.23.2560.1417" timestamp="1613877017863" />
+    <state width="1520" height="207" key="GridCell.Tab.0.bottom" timestamp="1613877632088">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
-    <state width="1520" height="207" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.1680.1027@-2560.23.2560.1417" timestamp="1613875268164" />
-    <state width="1520" height="207" key="GridCell.Tab.0.left" timestamp="1613875268164">
+    <state width="1520" height="207" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.1680.1027@-2560.23.2560.1417" timestamp="1613877632088" />
+    <state width="1520" height="207" key="GridCell.Tab.0.center" timestamp="1613877632087">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
-    <state width="1520" height="207" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.1680.1027@-2560.23.2560.1417" timestamp="1613875268164" />
-    <state width="1520" height="207" key="GridCell.Tab.0.right" timestamp="1613875268165">
+    <state width="1520" height="207" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.1680.1027@-2560.23.2560.1417" timestamp="1613877632087" />
+    <state width="1520" height="207" key="GridCell.Tab.0.left" timestamp="1613877632086">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
-    <state width="1520" height="207" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.1680.1027@-2560.23.2560.1417" timestamp="1613875268165" />
+    <state width="1520" height="207" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.1680.1027@-2560.23.2560.1417" timestamp="1613877632086" />
+    <state width="1520" height="207" key="GridCell.Tab.0.right" timestamp="1613877632087">
+      <screen x="-2560" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1520" height="207" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.1680.1027@-2560.23.2560.1417" timestamp="1613877632087" />
     <state x="-1713" y="506" key="com.intellij.ide.util.TipDialog" timestamp="1613866292108">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>

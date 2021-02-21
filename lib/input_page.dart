@@ -1,4 +1,5 @@
 import 'package:bmi_calculator/icon_content.dart';
+import 'package:bmi_calculator/results_page.dart';
 import 'package:bmi_calculator/reusable_card.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -22,7 +23,7 @@ class _InputPageState extends State<InputPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('BMI CALCULATOR'),
+        title: new Center(child: new Text('CALCULADORA IMC', textAlign: TextAlign.center)),
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -126,23 +127,21 @@ class _InputPageState extends State<InputPage> {
                           children: <Widget>[
                             RoundIconButton(
                                 icon: FontAwesomeIcons.minus,
-                                onPressed: (){
+                                onPressed: () {
                                   setState(() {
                                     weight--;
                                   });
-                                }
-                            ),
+                                }),
                             SizedBox(
                               width: 10.0,
                             ),
                             RoundIconButton(
-                              icon: FontAwesomeIcons.plus,
-                                onPressed: (){
+                                icon: FontAwesomeIcons.plus,
+                                onPressed: () {
                                   setState(() {
                                     weight++;
                                   });
-                                }
-                            ),
+                                }),
                           ],
                         ),
                       ],
@@ -168,23 +167,21 @@ class _InputPageState extends State<InputPage> {
                           children: <Widget>[
                             RoundIconButton(
                                 icon: FontAwesomeIcons.minus,
-                                onPressed: (){
+                                onPressed: () {
                                   setState(() {
                                     age--;
                                   });
-                                }
-                            ),
+                                }),
                             SizedBox(
                               width: 10.0,
                             ),
                             RoundIconButton(
                                 icon: FontAwesomeIcons.plus,
-                                onPressed: (){
+                                onPressed: () {
                                   setState(() {
                                     age++;
                                   });
-                                }
-                            ),
+                                }),
                           ],
                         ),
                       ],
@@ -194,11 +191,19 @@ class _InputPageState extends State<InputPage> {
               ],
             ),
           ),
-          Container(
-            color: bottomContainerColour,
-            margin: EdgeInsets.only(top: 10.0),
-            width: double.infinity,
-            height: bottomContainerHeight,
+          GestureDetector(
+            onTap: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) => ResultsPage()));
+            },
+            child: Container(
+              child: Text('CALCULAR', style: TextStyle(
+                color: Colors.white,
+              )),
+              color: bottomContainerColour,
+              margin: EdgeInsets.only(top: 10.0),
+              width: double.infinity,
+              height: bottomContainerHeight,
+            ),
           ),
         ],
       ),
