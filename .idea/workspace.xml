@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="896a139e-d8b9-40b3-806e-acf0e4319568" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/results_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/components/bottom_buttom.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/components/constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/components/round_icon_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/results_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/9e878efead14be907270d32045455647/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/9e878efead14be907270d32045455647/.filecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/9e878efead14be907270d32045455647/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/9e878efead14be907270d32045455647/app.dill" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/9e878efead14be907270d32045455647/kernel_snapshot.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/9e878efead14be907270d32045455647/kernel_snapshot.d" afterDir="false" />
@@ -22,7 +25,12 @@
       <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/cache.dill.track.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/input_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/input_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/constants.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/icon_content.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/icon_content.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/input_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/input_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/results_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/reusable_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/reusable_card.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +64,12 @@
     <property name="scala_project_settings_configurable.last_selected_tab_index" value="0" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/components" />
+      <recent name="$PROJECT_DIR$/lib/screens" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
@@ -132,22 +146,22 @@
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
     <state x="-1955" y="609" key="#com.intellij.fileTypes.FileTypeChooser/-2560.23.2560.1417/0.23.1680.1027@-2560.23.2560.1417" timestamp="1613877017863" />
-    <state width="1520" height="207" key="GridCell.Tab.0.bottom" timestamp="1613877632088">
+    <state width="1520" height="207" key="GridCell.Tab.0.bottom" timestamp="1613933778762">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
-    <state width="1520" height="207" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.1680.1027@-2560.23.2560.1417" timestamp="1613877632088" />
-    <state width="1520" height="207" key="GridCell.Tab.0.center" timestamp="1613877632087">
+    <state width="1520" height="207" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.1680.1027@-2560.23.2560.1417" timestamp="1613933778762" />
+    <state width="1520" height="207" key="GridCell.Tab.0.center" timestamp="1613933778761">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
-    <state width="1520" height="207" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.1680.1027@-2560.23.2560.1417" timestamp="1613877632087" />
-    <state width="1520" height="207" key="GridCell.Tab.0.left" timestamp="1613877632086">
+    <state width="1520" height="207" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.1680.1027@-2560.23.2560.1417" timestamp="1613933778761" />
+    <state width="1520" height="207" key="GridCell.Tab.0.left" timestamp="1613933778761">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
-    <state width="1520" height="207" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.1680.1027@-2560.23.2560.1417" timestamp="1613877632086" />
-    <state width="1520" height="207" key="GridCell.Tab.0.right" timestamp="1613877632087">
+    <state width="1520" height="207" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.1680.1027@-2560.23.2560.1417" timestamp="1613933778761" />
+    <state width="1520" height="207" key="GridCell.Tab.0.right" timestamp="1613933778762">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
-    <state width="1520" height="207" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.1680.1027@-2560.23.2560.1417" timestamp="1613877632087" />
+    <state width="1520" height="207" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.1680.1027@-2560.23.2560.1417" timestamp="1613933778762" />
     <state x="-1713" y="506" key="com.intellij.ide.util.TipDialog" timestamp="1613866292108">
       <screen x="-2560" y="23" width="2560" height="1417" />
     </state>
