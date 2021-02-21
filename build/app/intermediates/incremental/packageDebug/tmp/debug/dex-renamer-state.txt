@@ -1,4 +1,4 @@
-#Sun Feb 21 15:56:35 BRT 2021
+#Sun Feb 21 16:33:50 BRT 2021
 base.0=/Users/carolyne.carreira/Desktop/imc-calculator-flutter/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

@@ -6,6 +6,15 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class ResultsPage extends StatelessWidget {
+  ResultsPage(
+      {@required this.cmiResult,
+      @required this.resultText,
+      @required this.interpretation});
+
+  final String cmiResult;
+  final String resultText;
+  final String interpretation;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,15 +44,15 @@ class ResultsPage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
                   Text(
-                    "Normal",
+                    resultText,
                     style: resultTextStyle,
                   ),
                   Text(
-                    '18.3',
+                    cmiResult,
                     style: cmiTextStyle,
                   ),
                   Text(
-                    'O resultado do seu IMC está ótimo, continue assim!',
+                    interpretation,
                     textAlign: TextAlign.center,
                     style: cmiBodyStyle,
                   )
